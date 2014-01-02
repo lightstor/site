@@ -1,4 +1,4 @@
-lightstor-site
+Lightstor Storage Standard
 ==============
 
-LightStor Storage Standard
+LightStor Storage Fabric
