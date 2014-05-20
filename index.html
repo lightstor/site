@@ -30,10 +30,19 @@
         <section id="main-content">
           <p>
             
-            LightStor aims to build a comprehensive Storage and Backup system with unlimited size and bandwidth scalability using a RapidIO fabric. While other routable fabrics like Infiniband or quasi-fabrics like PCIe can be used, LightStor benefits are best demonstrated when RapidIO is used.
+            LightStor aims to build a comprehensive Storage and Backup system with unlimited size and bandwidth scalability using a 
+            RapidIO fabric. While other routable fabrics like Infiniband or quasi-fabrics like PCIe can be used, LightStor benefits 
+            are best demonstrated when RapidIO is used. 
 
- All components of LightStor the source for the controller HW written in the Bluespec Language, device side stack, host side stack, Appliance VM stack and the design files for the PCBs are in open source allowing anyone to build an end to end exabyte class storage system with Optical interconnects using completely open sourced components. The system is competitive in terms of performance and features with any proprietary system.
-Phase 1 of the project will focus only on SSD/BVRAM based storage and support for HDDs and storage tiering will be added in Phase 2.
+ <p></p>All components of LightStor, the HDL source for the controller HW (written in the Bluespec Language), device side stack, host side stack,
+ Appliance VM stack and the design files for the PCBs are in open source allowing anyone to build an end to end exabyte class storage 
+ system. The system will be  competitive in terms of performance and 
+ features with any proprietary system.
+ <p></p>
+Phase 1 of the project will focus only on SSD/NVRAM based storage. Support for HDDs and storage tiering will be added in Phase 2.
+Both optical or copper cabling can be used in the RapidIO fabric but optical cabling is preferred.
+
+<p></p>
 LightStor is built using three  components and a SRIO fabric
 
 <p> Storage Controller 
